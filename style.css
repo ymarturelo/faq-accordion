@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    font-family: "Work Sans";
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding:40px 40px;
+    border-width: 20px;
+    border-radius: 0.9rem;
+}
+
+h2 {
+    font-size: 3.1rem;
+    margin: 0px;
+}
+
+.background-image {
+    width: 100%;
+}
+.question {
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+hr{
+   width: 100%;
+   border-color: hsl(275, 100%, 97%, 0.2);
+}
+.header{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 16px;
+}
+.header>img{
+    width: 2.5rem;
+}
+
+.question>img {
+    width: 1.5rem;
+    margin-left: auto;
+
+}
+
+
